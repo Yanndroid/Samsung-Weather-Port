@@ -159,8 +159,6 @@
 
 .field private final delegationViewModel$delegate:Lja/e;
 
-.field private final foldStateListener:Lcom/sec/android/daemonapp/app/MainActivity$foldStateListener$1;
-
 .field public getLocationCount:Lcom/samsung/android/weather/domain/usecase/GetLocationCount;
 
 .field public getWeather:Lcom/samsung/android/weather/domain/usecase/GetWeather;
@@ -257,12 +255,6 @@
     invoke-direct {v1, v2, v3, v0, v4}, Landroidx/lifecycle/n1;-><init>(Lza/d;Lta/a;Lta/a;Lta/a;)V
 
     iput-object v1, p0, Lcom/sec/android/daemonapp/app/MainActivity;->delegationViewModel$delegate:Lja/e;
-
-    new-instance v0, Lcom/sec/android/daemonapp/app/MainActivity$foldStateListener$1;
-
-    invoke-direct {v0, p0}, Lcom/sec/android/daemonapp/app/MainActivity$foldStateListener$1;-><init>(Lcom/sec/android/daemonapp/app/MainActivity;)V
-
-    iput-object v0, p0, Lcom/sec/android/daemonapp/app/MainActivity;->foldStateListener:Lcom/sec/android/daemonapp/app/MainActivity$foldStateListener$1;
 
     invoke-virtual {p0}, Landroidx/activity/m;->getLifecycle()Landroidx/lifecycle/x;
 
@@ -1105,20 +1097,6 @@
 
     invoke-interface {v0, p0}, Lcom/samsung/android/weather/system/service/WindowService;->dismissKeyguard(Landroid/app/Activity;)V
 
-    invoke-virtual {p0}, Lcom/sec/android/daemonapp/app/MainActivity;->getSystemService()Lcom/samsung/android/weather/system/service/SystemService;
-
-    move-result-object v0
-
-    invoke-interface {v0}, Lcom/samsung/android/weather/system/service/SystemService;->getFoldStateService()Lcom/samsung/android/weather/system/service/FoldStateService;
-
-    move-result-object v0
-
-    iget-object p0, p0, Lcom/sec/android/daemonapp/app/MainActivity;->foldStateListener:Lcom/sec/android/daemonapp/app/MainActivity$foldStateListener$1;
-
-    const/4 v1, 0x0
-
-    invoke-interface {v0, p0, v1}, Lcom/samsung/android/weather/system/service/FoldStateService;->registerFoldStateListener(Ljava/lang/Object;Landroid/os/Handler;)V
-
     :cond_0
     return-void
 .end method
@@ -1516,25 +1494,6 @@
 
     invoke-interface {v0}, Lcom/samsung/android/weather/system/service/SmartTipService;->releaseInstance()V
 
-    invoke-virtual {p0}, Lcom/sec/android/daemonapp/app/MainActivity;->isFlipCoverScreen()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    invoke-virtual {p0}, Lcom/sec/android/daemonapp/app/MainActivity;->getSystemService()Lcom/samsung/android/weather/system/service/SystemService;
-
-    move-result-object v0
-
-    invoke-interface {v0}, Lcom/samsung/android/weather/system/service/SystemService;->getFoldStateService()Lcom/samsung/android/weather/system/service/FoldStateService;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/sec/android/daemonapp/app/MainActivity;->foldStateListener:Lcom/sec/android/daemonapp/app/MainActivity$foldStateListener$1;
-
-    invoke-interface {v0, v1}, Lcom/samsung/android/weather/system/service/FoldStateService;->unregisterFoldStateListener(Ljava/lang/Object;)V
-
-    :cond_0
     invoke-super {p0}, Landroidx/appcompat/app/s;->onDestroy()V
 
     invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
