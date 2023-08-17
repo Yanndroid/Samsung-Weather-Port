@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:id="@id/widget_insight_message" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/index_state_chance_of_rain" android:maxLines="2" android:minLines="2" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="@dimen/insight_widget_message_text_min" android:autoSizeMaxTextSize="@dimen/insight_widget_message_text" style="@style/InsightWidget.TextAppearance.Content" />
+</LinearLayout>

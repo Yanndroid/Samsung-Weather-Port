@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.daemonapp.app.detail.view.DetailCardConstraintLayout android:tag="layout/detail_large_air_index_view_holder_0" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/small_air_quality_card_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/tts_container" android:tag="binding_1" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/first" android:tag="binding_2" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/air_quality_bar_bottom_margin" android:layout_weight="1.0">
+            <include android:id="@id/first_layout" layout="@layout/detail_small_air_quality_inner_view" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/second" android:tag="binding_3" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/air_quality_bar_bottom_margin" android:layout_weight="1.0" android:paddingStart="@dimen/air_quality_bar_end_margin" android:paddingEnd="@dimen/air_quality_bar_horizontal_margin">
+            <include android:id="@id/second_layout" layout="@layout/detail_small_air_quality_inner_view" />
+        </LinearLayout>
+    </LinearLayout>
+</com.sec.android.daemonapp.app.detail.view.DetailCardConstraintLayout>

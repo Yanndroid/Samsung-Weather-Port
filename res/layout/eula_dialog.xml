@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:tag="layout/eula_dialog_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scrollView" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:theme="@style/Theme.AppCompat.DayNight" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale" android:paddingHorizontal="24.0dip">
+            <TextView android:textSize="14.0sp" android:layout_gravity="start" android:id="@id/eula_description" android:background="@drawable/link_text_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineHeight="21.0sp" style="@style/Weather.TextAppearance.Setting.Desc" />
+            <TextView android:textAppearance="?android:textAppearance" android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:textColorLink="@color/weather_color_primary_dark" android:linksClickable="true" android:layout_gravity="start" android:id="@id/more_detail" android:background="@drawable/link_text_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@string/font_sec" android:lineHeight="21.0sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

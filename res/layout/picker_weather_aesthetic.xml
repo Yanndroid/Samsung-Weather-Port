@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/widget_main_layout" android:background="@color/col_0_000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/weather_area" android:background="@drawable/widget_bg_preview_aesthetic" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/layer_bitmap_human_partlysunny" android:scaleType="fitEnd" android:adjustViewBounds="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="10.4" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:weightSum="100.0" android:layout_weight="79.9">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="8.5" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="23.0">
+                    <TextView android:id="@id/widget_current_temp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="23°" android:autoSizeTextType="uniform" style="@style/AestheticWidget.TextAppearance.Temperature" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="42.0" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="9.0">
+                    <TextView android:gravity="start|center" android:id="@id/widget_current_weather_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/partly_sunny" android:textAlignment="viewStart" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="@dimen/weather_text_min_size_2x2" android:autoSizeMaxTextSize="@dimen/weather_text_max_size_2x2" style="@style/AestheticWidget.TextAppearance" />
+                </LinearLayout>
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.5" />
+                <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="9.0">
+                    <TextView android:gravity="start|center" android:id="@id/widget_current_city_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/widget_location" android:layout_weight="1.0" android:textAlignment="viewStart" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="@dimen/weather_text_min_size_2x2" android:autoSizeMaxTextSize="@dimen/weather_text_max_size_2x2" style="@style/AestheticWidget.TextAppearance" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

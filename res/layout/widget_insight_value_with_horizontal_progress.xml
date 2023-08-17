@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="62.85"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="27.14" layout="@layout/widget_insight_message_layout" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="100.0" android:layout_weight="35.71">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="8.0" />
+        <TextView android:id="@id/widget_insight_data" android:layout_width="fill_parent" android:layout_height="0.0dip" android:maxLines="1" android:layout_weight="52.0" android:textAlignment="center" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="@dimen/insight_widget_value_text_min" android:autoSizeMaxTextSize="@dimen/insight_widget_value_text" style="@style/InsightWidget.TextAppearance.Level" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="6.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="136.0" android:layout_weight="12.0">
+            <LinearLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="23.0" />
+            <ProgressBar android:id="@id/widget_insight_progress" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:progress="10" android:indeterminate="false" android:progressDrawable="@drawable/insight_horizontal_progress_bar" android:layout_weight="90.0" style="@style/HorizontalProgressBarStyle" />
+            <LinearLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="23.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

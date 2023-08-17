@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="280.0dip" android:width="280.0dip" android:viewportWidth="280.0" android:viewportHeight="280.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="_R_G">
+        <group android:name="_R_G_L_1_G" android:scaleX="1.23174" android:scaleY="1.23173" android:translateX="169.0" android:translateY="125.0">
+            <path android:name="_R_G_L_1_G_D_0_P_0" android:fillColor="#ffbfd6de" android:pathData=" M-0.24 0.24 C-16.08,-15.64 -20.32,-38.96 -13.24,-60 C-40.04,-53.64 -60,-29.56 -60,-0.84 C-60,32.76 -32.76,60 0.84,60 C29.56,60 53.64,40.04 60,13.24 C38.96,20.32 15.64,16.08 -0.24,0.24 " android:fillAlpha="1.0" android:fillType="nonZero" />
+        </group>
+        <group android:name="_R_G_L_0_G_N_2_T_0" android:scaleX="1.45647" android:scaleY="1.45647" android:translateX="118.25" android:translateY="187.75">
+            <group android:name="_R_G_L_0_G" android:pivotX="160.0" android:pivotY="160.0" android:scaleX="0.5" android:scaleY="0.5" android:translateX="-163.364" android:translateY="-163.948">
+                <group android:name="_R_G_L_0_G_L_1_G" android:translateX="200.0" android:translateY="190.76">
+                    <path android:name="_R_G_L_0_G_L_1_G_D_0_P_0" android:fillColor="#fff1f1f1" android:pathData=" M-80 -49.23 C-80,-49.23 30.76,-49.23 30.76,-49.23 C57.96,-49.23 80,-27.19 80,0.01 C80,27.17 57.96,49.21 30.76,49.25 C30.76,49.21 -80,49.25 -80,49.25 C-80,49.25 -80,-49.23 -80,-49.23c " android:fillAlpha="1.0" android:fillType="nonZero" />
+                </group>
+                <group android:name="_R_G_L_0_G_L_0_G" android:translateX="120.0" android:translateY="159.99">
+                    <path android:name="_R_G_L_0_G_L_0_G_D_0_P_0" android:fillColor="#ffffffff" android:pathData=" M80 0 C80,44.2 44.2,80 0,80 C-44.2,80 -80,44.2 -80,0 C-80,-44.2 -44.2,-80 0,-80 C44.2,-80 80,-44.2 80,0 " android:fillAlpha="1.0" android:fillType="nonZero" />
+                </group>
+            </group>
+        </group>
+    </group>
+    <group android:name="time_group" />
+</vector>

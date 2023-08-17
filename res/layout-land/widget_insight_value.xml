@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="36.0dip" layout="@layout/widget_insight_message_layout" />
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/widget_insight_content_icon" android:layout_width="wrap_content" android:layout_height="@dimen/insight_widget_value_icon" android:src="@drawable/insight_rain" android:adjustViewBounds="true" android:maxWidth="@dimen/insight_widget_value_icon" />
+        <TextView android:textSize="@dimen/insight_widget_value_text" android:gravity="center" android:id="@id/widget_insight_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="75%" android:paddingStart="2.0dip" style="@style/InsightWidget.TextAppearance.Level" />
+    </LinearLayout>
+</LinearLayout>

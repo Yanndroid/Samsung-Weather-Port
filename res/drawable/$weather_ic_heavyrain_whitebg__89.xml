@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$weather_ic_heavyrain_whitebg__90" android:duration="683" android:startOffset="0" android:valueFrom="1" android:valueTo="1" android:valueType="floatType" android:propertyName="strokeAlpha" />
+    <objectAnimator android:interpolator="@drawable/$weather_ic_heavyrain_whitebg__91" android:duration="683" android:startOffset="683" android:valueFrom="1" android:valueTo="1" android:valueType="floatType" android:propertyName="strokeAlpha" />
+</set>

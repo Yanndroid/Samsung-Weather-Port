@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$weather_ic_heavyrain_whitebg__28" android:duration="1417" android:startOffset="0" android:propertyName="translateXY" android:pathData="M 297,56.875C 297,56.875 297,56.875 297,56.875" android:propertyXName="translateX" android:propertyYName="translateY" />
+    <objectAnimator android:interpolator="@drawable/$weather_ic_heavyrain_whitebg__29" android:duration="650" android:startOffset="1417" android:propertyName="translateXY" android:pathData="M 297,56.875C 297,56.875 200.065,151.501 200.065,151.501" android:propertyXName="translateX" android:propertyYName="translateY" />
+</set>

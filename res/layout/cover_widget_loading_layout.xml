@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/widget_cover_layout_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="@dimen/widget_cover_title_icon_size" android:layout_height="@dimen/widget_cover_title_icon_size" android:src="@drawable/ic_loading" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading_message" android:paddingHorizontal="@dimen/widget_cover_layout_margin_width" android:paddingVertical="10.0dip" style="@style/CoverWidget.TextAppearance" />
+</LinearLayout>

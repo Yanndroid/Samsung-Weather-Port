@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <animated-image android:src="@drawable/wp_illust_human_hot" android:repeatCount="0" android:autoStart="true" android:autoMirrored="true" />
+    </item>
+</layer-list>

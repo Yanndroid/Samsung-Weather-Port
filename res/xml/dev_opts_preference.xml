@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Enable" android:key="EnableDevOpts" />
+    <androidx.preference.PreferenceCategory android:title="Forecast Provider" android:key="ForecastProvider" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_forecast_provider_names" android:title="Forecast Provider" android:key="FP_Provider" android:entryValues="@array/devopts_forecast_provider_values" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_forecast_provider_names" android:title="Active Cp for Home" android:key="FP_ActiveCp" android:entryValues="@array/devopts_forecast_provider_values" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_forecast_provider_names" android:title="Device Cp for Home" android:key="FP_DeviceCp" android:entryValues="@array/devopts_forecast_provider_values" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_forecast_provider_names" android:title="Network Cp for Away" android:key="FP_NetworkCp" android:entryValues="@array/devopts_forecast_provider_values" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_pp_version_names" android:title="Privacy Policy Version" android:key="FP_PpVersion" android:entryValues="@array/devopts_pp_version_values" />
+    <androidx.preference.PreferenceCategory android:title="Csc Feature" android:key="CscFeature" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_auto_refresh_interval_names" android:title="Auto Refresh Interval" android:key="CSC_AutoRefreshInterval" android:entryValues="@array/devopts_auto_refresh_interval_values" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Minimized Sip" android:key="CSC_MinimizedSip" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Verizon" android:key="CSC_Verizon" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Dispute Area" android:key="CSC_DisputeArea" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="US Vendor" android:key="CSC_UsVendor" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Enable Web Link" android:key="CSC_EnableWebLink" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Screen on Refresh" android:key="CSC_ScreenOnRefresh" />
+    <androidx.preference.PreferenceCategory android:title="Floating Feature" android:key="FloatingFeature" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Mass Device" android:key="FL_Mass" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Fold Device" android:key="FL_Fold" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Flip Device" android:key="FL_Flip" />
+    <androidx.preference.PreferenceCategory android:title="Device Monitor" android:key="DeviceMonitor" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Samsung Device" android:key="DM_SamsungDevice" />
+    <androidx.preference.Preference android:persistent="false" android:title="Model Name" android:key="DM_ModelName" />
+    <androidx.preference.Preference android:persistent="false" android:title="Brand Name" android:key="DM_BrandName" />
+    <androidx.preference.Preference android:persistent="false" android:title="Manufacturer" android:key="DM_Manufacturer" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_android_version_names" android:title="Android Version" android:key="DM_AndroidVersion" android:entryValues="@array/devopts_android_version_value" />
+    <androidx.preference.PreferenceCategory android:title="Policy Manager" android:key="PolicyManager" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Support Radar" android:key="PM_Radar" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Support Video" android:key="PM_Video" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Support Life Content" android:key="PM_LifeContent" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Support Insight Card" android:key="PM_InsightCard" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Support Driving Index" android:key="PM_DrivingIndex" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Support Represent Location" android:key="PM_RepresentLocation" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Support Narrative" android:key="PM_Narrative" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Support Alert" android:key="PM_Alert" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Support Precipitation Graph" android:key="PM_PrecipitationGraph" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Support On The Go" android:key="PM_OnTheGo" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Support Refresh On Screen" android:key="PM_RefreshOnScreen" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Support Notice Of Forecast Change" android:key="PM_NoticeOfForecastChange" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Support Map Search" android:key="PM_MapSearch" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Support Smart Things" android:key="PM_SmartThings" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Support Away Mode" android:key="PM_AwayMode" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Support Samsung News" android:key="PM_SamsungNews" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Restrict Web Link" android:key="PM_RestrictWebLink" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Exist Weather" android:key="PM_ExistWeather" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Enable Customization Service" android:key="PM_EnableCustomizationService" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Enable Contact Us" android:key="PM_EnableContactUs" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Enable Report Wrong City" android:key="PM_ReportWrongCity" />
+    <androidx.preference.PreferenceCategory android:title="Device Service" android:key="DeviceService" />
+    <androidx.preference.Preference android:persistent="false" android:title="Sales Code" android:key="DS_SalesCode" />
+    <androidx.preference.Preference android:persistent="false" android:title="Mcc(gsm.operator.numeric)" android:key="DS_Mcc" />
+    <androidx.preference.Preference android:persistent="false" android:title="Mnc(gsm.operator.numeric)" android:key="DS_Mnc" />
+    <androidx.preference.Preference android:persistent="false" android:title="Country Code(ro.csc.countryiso_code)" android:key="DS_CountryCode" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_first_api_names" android:title="First OS Version" android:key="DS_FirstApi" android:entryValues="@array/devopts_first_api_values" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Wifi Only" android:key="DS_WifiOnly" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Tablet Device" android:key="DS_IsTablet" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Reduce Animation" android:key="DS_ReduceAnimation" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Apply Theme" android:key="DS_ApplyTheme" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_one_ui_version_names" android:title="One UI Version" android:key="DS_OneUi" android:entryValues="@array/devopts_one_ui_version_values" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Amx Operator" android:key="DS_AmxOperator" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Vietnam Operator" android:key="DS_VietnamOperator" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Retail Mode" android:key="DS_RetailMode" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Detach Mode" android:key="DS_DetachMode" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="User Beta Version" android:key="DS_UserBetaVersion" />
+    <androidx.preference.PreferenceCategory android:title="Telephony Service" android:key="TelephonyService" />
+    <androidx.preference.Preference android:persistent="false" android:title="Mcc" android:key="TS_Mcc" />
+    <androidx.preference.Preference android:persistent="false" android:title="Mnc" android:key="TS_Mnc" />
+    <androidx.preference.Preference android:persistent="false" android:title="Country Code" android:key="TS_CountryCode" />
+    <androidx.preference.PreferenceCategory android:title="Weather Info" android:key="WeatherInfo" />
+    <androidx.preference.Preference android:persistent="false" android:title="Add location with geo code(eq. 63.76,-68.53)" android:key="WI_AddGeoLocation" />
+    <androidx.preference.Preference android:persistent="false" android:title="Add location with key" android:key="WI_AddKeyLocation" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_weather_codes_names" android:title="Weather Code" android:key="WI_WeatherCode" android:entryValues="@array/devopts_weather_codes_values" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_weather_codes_names" android:title="Weather Daily Day Code" android:key="WI_DailyDayCode" android:entryValues="@array/devopts_weather_codes_values" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_weather_codes_names" android:title="Weather Daily Night Code" android:key="WI_DailyNightCode" android:entryValues="@array/devopts_weather_codes_values" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_weather_codes_names" android:title="Weather Hourly Code" android:key="WI_HourlyCode" android:entryValues="@array/devopts_weather_codes_values" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Has Idx" android:key="WI_HasIdx" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_sunrise_sunset_time_names" android:title="Sunrise or Sunset Time" android:key="WI_SunriseSunsetTime" android:entryValues="@array/devopts_sunrise_sunset_time_values" />
+    <androidx.preference.Preference android:persistent="false" android:title="Hourly Qcf(eq.0.1,0.2,0.3,0.4,0.5,0.6)" android:key="WI_HourlyQcf" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_moon_phrase_names" android:title="Moon Phrase" android:key="WI_MoonPhrase" android:entryValues="@array/devopts_moon_phrase_values" />
+    <androidx.preference.PreferenceCategory android:title="Location Info" android:key="LocationInfo" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Using Mock Location" android:key="LI_Available" />
+    <androidx.preference.Preference android:persistent="false" android:title="Latitude" android:key="LI_Latitude" />
+    <androidx.preference.Preference android:persistent="false" android:title="Longitude" android:key="LI_Longitude" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_location_source_names" android:title="Location Source" android:key="LI_Source" android:entryValues="@array/devopts_location_source_values" />
+    <androidx.preference.PreferenceCategory android:title="App Store" android:key="AppStore" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Enable App Store" android:key="AS_StoreAvailable" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_store_server_type_names" android:title="Store Server" android:key="AS_StoreServer" android:entryValues="@array/devopts_store_server_type_values" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Using Mock Update Info" android:key="AS_MockEnable" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_app_update_result_names" android:title="Update Result Code" android:key="AS_ResultCode" android:entryValues="@array/devopts_app_update_result_values" />
+    <androidx.preference.Preference android:persistent="false" android:title="Update Version" android:key="AS_UpdateVersion" />
+    <androidx.preference.PreferenceCategory android:title="Customization" android:key="Customization" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_most_probable_activity_names" android:title="Customization Event" android:key="C_Event" android:entryValues="@array/devopts_most_probable_activity_values" />
+    <androidx.preference.PreferenceCategory android:title="Free News" android:key="FreeNews" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Support All Models" android:key="FN_AllModels" />
+    <androidx.preference.PreferenceCategory android:title="Monitoring" android:key="Monitoring" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Using Short Period for Update" android:key="M_ShortPeriod" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/widget_update_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/InsightWidget.TextAppearance.LastUpdate" android:id="@id/widget_update_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingEnd="3.0dip" android:layout_toStartOf="@id/widget_refresh_progress_area" />
+    <FrameLayout android:id="@id/widget_refresh_progress_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <ProgressBar android:theme="@style/WeatherWidget.Progress.Theme.White" android:id="@id/widget_refresh_progress" android:visibility="gone" android:layout_width="@dimen/insight_widget_update_area_icon" android:layout_height="@dimen/insight_widget_update_area_icon" style="@style/WeatherWidget.Progress" />
+        <ImageView android:id="@id/widget_refresh_icon" android:visibility="visible" android:layout_width="@dimen/insight_widget_update_area_icon" android:layout_height="@dimen/insight_widget_update_area_icon" android:src="@drawable/weather_widget_4x4_ic_updated_noshadow_mtrl" android:scaleType="fitXY" android:cropToPadding="false" />
+    </FrameLayout>
+</LinearLayout>

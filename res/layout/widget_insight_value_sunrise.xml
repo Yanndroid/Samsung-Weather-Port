@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/insight_image" android:layout_width="fill_parent" android:layout_height="@dimen/insight_widget_value_image_height" android:maxWidth="@dimen/insight_widget_value_image_width" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center|top" android:id="@id/insight_image_progress" android:layout_width="fill_parent" android:layout_height="@dimen/insight_widget_value_image_width" android:src="@drawable/ic_sunrise_route" android:adjustViewBounds="true" android:maxWidth="@dimen/insight_widget_value_image_width" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_insight_sunrise_baseline" android:background="#80fafafa" android:layout_width="@dimen/insight_widget_value_image_width" android:layout_height="1.0dip" android:layout_below="@id/insight_image" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_insight_sunrise_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/insight_image" android:layout_alignStart="@id/insight_image">
+        <TextView android:textSize="@dimen/insight_widget_value_image_text" android:id="@id/widget_insight_sunrise" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/life_index_sunrise" style="@style/InsightWidget.TextAppearance" />
+        <TextView android:textSize="@dimen/insight_widget_value_image_text" android:id="@id/widget_insight_sunrise_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/InsightWidget.TextAppearance" />
+    </LinearLayout>
+    <LinearLayout android:gravity="end" android:orientation="vertical" android:id="@id/widget_insight_sunset_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/insight_image" android:layout_alignEnd="@id/insight_image">
+        <TextView android:textSize="@dimen/insight_widget_value_image_text" android:id="@id/widget_insight_sunset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/life_index_senset" android:textAlignment="viewEnd" style="@style/InsightWidget.TextAppearance" />
+        <TextView android:textSize="@dimen/insight_widget_value_image_text" android:id="@id/widget_insight_sunset_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewEnd" style="@style/InsightWidget.TextAppearance" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/insight_widget_value_image_text" android:id="@id/widget_insight_daylight" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="No daylight" android:layout_below="@id/insight_image" android:textAlignment="center" android:layout_alignStart="@id/insight_image" android:layout_alignEnd="@id/insight_image" style="@style/InsightWidget.TextAppearance" />
+</RelativeLayout>

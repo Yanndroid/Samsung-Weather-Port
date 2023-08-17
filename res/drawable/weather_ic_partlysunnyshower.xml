@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$weather_ic_partlysunnyshower__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="_R_G_L_11_G" android:animation="@drawable/$weather_ic_partlysunnyshower__1" />
+    <target android:name="_R_G_L_10_G" android:animation="@drawable/$weather_ic_partlysunnyshower__4" />
+    <target android:name="_R_G_L_10_G" android:animation="@drawable/$weather_ic_partlysunnyshower__7" />
+    <target android:name="_R_G_L_9_G" android:animation="@drawable/$weather_ic_partlysunnyshower__8" />
+    <target android:name="_R_G_L_9_G" android:animation="@drawable/$weather_ic_partlysunnyshower__11" />
+    <target android:name="_R_G_L_8_G" android:animation="@drawable/$weather_ic_partlysunnyshower__12" />
+    <target android:name="_R_G_L_7_G" android:animation="@drawable/$weather_ic_partlysunnyshower__15" />
+    <target android:name="_R_G_L_7_G" android:animation="@drawable/$weather_ic_partlysunnyshower__18" />
+    <target android:name="_R_G_L_6_G" android:animation="@drawable/$weather_ic_partlysunnyshower__19" />
+    <target android:name="_R_G_L_6_G" android:animation="@drawable/$weather_ic_partlysunnyshower__22" />
+    <target android:name="_R_G_L_5_G" android:animation="@drawable/$weather_ic_partlysunnyshower__23" />
+    <target android:name="_R_G_L_4_G" android:animation="@drawable/$weather_ic_partlysunnyshower__26" />
+    <target android:name="_R_G_L_4_G" android:animation="@drawable/$weather_ic_partlysunnyshower__29" />
+    <target android:name="_R_G_L_3_G" android:animation="@drawable/$weather_ic_partlysunnyshower__30" />
+    <target android:name="_R_G_L_3_G" android:animation="@drawable/$weather_ic_partlysunnyshower__33" />
+    <target android:name="_R_G_L_2_G_N_2_T_0" android:animation="@drawable/$weather_ic_partlysunnyshower__34" />
+    <target android:name="_R_G_L_1_G" android:animation="@drawable/$weather_ic_partlysunnyshower__37" />
+    <target android:name="time_group" android:animation="@drawable/$weather_ic_partlysunnyshower__40" />
+</animated-vector>

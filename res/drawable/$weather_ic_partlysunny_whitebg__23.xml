@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$weather_ic_partlysunny_whitebg__24" android:duration="283" android:startOffset="0" android:valueFrom="1" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$weather_ic_partlysunny_whitebg__25" android:duration="283" android:startOffset="0" android:valueFrom="1" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/$weather_ic_partlysunny_whitebg__26" android:duration="750" android:startOffset="283" android:valueFrom="1" android:valueTo="0.9" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$weather_ic_partlysunny_whitebg__27" android:duration="750" android:startOffset="283" android:valueFrom="1" android:valueTo="0.9" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/$weather_ic_partlysunny_whitebg__28" android:duration="750" android:startOffset="1033" android:valueFrom="0.9" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$weather_ic_partlysunny_whitebg__29" android:duration="750" android:startOffset="1033" android:valueFrom="0.9" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY" />
+</set>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/illust_human_clear" android:autoMirrored="true" />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/illust_weather_clear" android:autoMirrored="true" />
+    </item>
+</layer-list>

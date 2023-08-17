@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hourly_view_chart_height_large">71.0dip</dimen>
+    <dimen name="hourly_view_chart_height_large_small">59.0dip</dimen>
+    <dimen name="hourly_view_narrative_margin_large">18.0dip</dimen>
+    <dimen name="hourly_view_weather_image_margin_bottom_large">22.5dip</dimen>
+    <dimen name="hourly_view_weather_image_margin_bottom_large_small">19.5dip</dimen>
+    <dimen name="hourly_view_weather_image_margin_top_large">24.5dip</dimen>
+    <dimen name="hourly_view_weather_image_margin_top_large_small">18.5dip</dimen>
+    <dimen name="radar_image_width">375.0dip</dimen>
+</resources>

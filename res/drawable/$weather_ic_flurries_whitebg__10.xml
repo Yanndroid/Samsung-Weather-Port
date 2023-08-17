@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$weather_ic_flurries_whitebg__11" android:duration="74" android:startOffset="0" android:propertyName="translateXY" android:pathData="M 72.781,176C 72.781,176 72.781,176 72.781,176" android:propertyXName="translateX" android:propertyYName="translateY" />
+    <objectAnimator android:interpolator="@drawable/$weather_ic_flurries_whitebg__12" android:duration="442" android:startOffset="74" android:propertyName="translateXY" android:pathData="M 72.781,176C 72.781,176 72.781,196 72.781,196" android:propertyXName="translateX" android:propertyYName="translateY" />
+    <objectAnimator android:interpolator="@drawable/$weather_ic_flurries_whitebg__13" android:duration="442" android:startOffset="516" android:propertyName="translateXY" android:pathData="M 72.781,196C 72.781,196 72.781,176 72.781,176" android:propertyXName="translateX" android:propertyYName="translateY" />
+    <objectAnimator android:interpolator="@drawable/$weather_ic_flurries_whitebg__14" android:duration="442" android:startOffset="958" android:propertyName="translateXY" android:pathData="M 72.781,176C 72.781,176 72.781,196 72.781,196" android:propertyXName="translateX" android:propertyYName="translateY" />
+    <objectAnimator android:interpolator="@drawable/$weather_ic_flurries_whitebg__15" android:duration="442" android:startOffset="1401" android:propertyName="translateXY" android:pathData="M 72.781,196C 72.781,196 72.781,176 72.781,176" android:propertyXName="translateX" android:propertyYName="translateY" />
+</set>

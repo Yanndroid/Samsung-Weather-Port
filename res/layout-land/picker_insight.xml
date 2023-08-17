@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/widget_background_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/widget_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_bg_preview_aesthetic" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+            <ImageView android:background="#0dffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_weight="0.5" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/widget_background_dim" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/widget_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/widget_insight_weather" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5" layout="@layout/widget_insight_weather_layout_land" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5">
+            <include android:id="@id/widget_insight_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/widget_insight_weather" android:layout_marginHorizontal="10.0dip" layout="@layout/widget_insight_summary_layout" />
+            <include android:id="@id/widget_insight_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/widget_insight_update_area" android:layout_below="@id/widget_insight_summary" android:layout_marginHorizontal="10.0dip" layout="@layout/widget_insight_value" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

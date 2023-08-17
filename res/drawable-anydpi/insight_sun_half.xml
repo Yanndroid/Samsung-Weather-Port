@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="22.0dip" android:width="22.0dip" android:viewportWidth="22.0" android:viewportHeight="22.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h22v11h-22z" />
+        <path android:fillColor="#00000000" android:pathData="M10.999,2L10.999,4" android:strokeColor="#fffafafa" android:strokeWidth="1.5" android:strokeLineCap="round" android:fillType="nonZero" />
+        <path android:fillColor="#00000000" android:pathData="M10.999,18L10.999,20" android:strokeColor="#fffafafa" android:strokeWidth="1.5" android:strokeLineCap="round" android:fillType="nonZero" />
+        <path android:fillColor="#00000000" android:pathData="M2,10.843L4,10.878" android:strokeColor="#fffafafa" android:strokeWidth="1.5" android:strokeLineCap="round" android:fillType="nonZero" />
+        <path android:fillColor="#00000000" android:pathData="M17.998,11.122L19.997,11.157" android:strokeColor="#fffafafa" android:strokeWidth="1.5" android:strokeLineCap="round" android:fillType="nonZero" />
+        <path android:fillColor="#00000000" android:pathData="M4.861,4.418L6.225,5.881" android:strokeColor="#fffafafa" android:strokeWidth="1.5" android:strokeLineCap="round" android:fillType="nonZero" />
+        <path android:fillColor="#00000000" android:pathData="M15.773,16.119L17.137,17.582" android:strokeColor="#fffafafa" android:strokeWidth="1.5" android:strokeLineCap="round" android:fillType="nonZero" />
+        <path android:fillColor="#00000000" android:pathData="M17.363,4.636L15.948,6.05" android:strokeColor="#fffafafa" android:strokeWidth="1.5" android:strokeLineCap="round" android:fillType="nonZero" />
+        <path android:fillColor="#00000000" android:pathData="M6.049,15.95L4.635,17.364" android:strokeColor="#fffafafa" android:strokeWidth="1.5" android:strokeLineCap="round" android:fillType="nonZero" />
+        <path android:fillColor="#fffafafa" android:pathData="M15.5,11C15.5,13.485 13.485,15.5 11,15.5C8.515,15.5 6.5,13.485 6.5,11C6.5,8.515 8.515,6.5 11,6.5C13.485,6.5 15.5,8.515 15.5,11" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+    </group>
+</vector>

@@ -1,0 +1,43 @@
+!!brut.androlib.apk.ApkInfo
+apkFileName: com.sec.android.daemonapp_1.6.70.18-167018100.apk
+doNotCompress:
+- classes.dex
+- resources.arsc
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- lib/arm64-v8a/libDiagMonKey.so
+- webp
+- png
+- res/drawable-nodpi/tw_list_icon_reorder.bmp
+- res/drawable/wp_illust_human_windy.webp
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+resourcesAreCompressed: false
+sdkInfo:
+  minSdkVersion: '31'
+  targetSdkVersion: '34'
+sharedLibrary: false
+sparseResources: true
+unknownFiles:
+  DebugProbesKt.bin: '8'
+  androidsupportmultidexversion.txt: '8'
+  kotlin-tooling-metadata.json: '8'
+  play-services-base.properties: '8'
+  play-services-basement.properties: '8'
+  play-services-location.properties: '8'
+  play-services-maps.properties: '8'
+  play-services-tasks.properties: '8'
+  SEC-INF/buildConfirm.crt: '8'
+  SEC-INF/buildinfo.xml: '8'
+  okhttp3/internal/publicsuffix/NOTICE: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.8.1
+versionInfo:
+  versionCode: '167018100'
+  versionName: 1.6.70.18

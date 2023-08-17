@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/col_dev_opts_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/Theme.AppCompat.DayNight" android:id="@id/app_bar" android:background="@color/col_dev_opts_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" app:expanded="false" style="@style/Theme.AppCompat.DayNight">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_app_bar" android:background="@color/col_dev_opts_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed|snap" app:title="Dev Options" style="@style/Widget.Design.CollapsingToolbar">
+            <androidx.appcompat.widget.Toolbar android:theme="@style/Theme.AppCompat.DayNight" android:layout_gravity="bottom" android:id="@id/toolbar" android:background="@color/col_dev_opts_bg_color" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:layout_collapseMode="pin" app:title="Dev Options" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/dev_options_container_layout" android:background="@color/col_dev_opts_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <FrameLayout android:id="@id/dev_options_container" android:background="@drawable/devopts_contents_bg" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

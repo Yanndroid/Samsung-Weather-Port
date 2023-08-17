@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/locations_footer_layout" android:tag="layout/locations_footer_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" android:paddingStart="@dimen/locations_sub_header_padding_side" android:paddingEnd="@dimen/locations_sub_header_padding_side"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.weather.app.common.view.SizeLimitedTextView android:textAppearance="@style/Weather.TextAppearance.Sec.400" android:textSize="@dimen/locations_bottom_description_text_size" android:textColor="@color/col_list_main_text_color" android:gravity="start" android:id="@id/locations_footer_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/manage_locations_desc" android:layout_weight="1.0" android:lineSpacingExtra="7.0sp" app:textSizeLimit="large" />
+</LinearLayout>

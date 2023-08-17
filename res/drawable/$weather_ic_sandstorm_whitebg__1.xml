@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$weather_ic_sandstorm_whitebg__2" android:duration="167" android:startOffset="0" android:valueFrom="0.9" android:valueTo="0.9" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$weather_ic_sandstorm_whitebg__3" android:duration="167" android:startOffset="0" android:valueFrom="0.9" android:valueTo="0.9" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/$weather_ic_sandstorm_whitebg__4" android:duration="602" android:startOffset="167" android:valueFrom="0.9" android:valueTo="-0.1" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$weather_ic_sandstorm_whitebg__5" android:duration="602" android:startOffset="167" android:valueFrom="0.9" android:valueTo="-0.1" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/$weather_ic_sandstorm_whitebg__6" android:duration="565" android:startOffset="769" android:valueFrom="-0.1" android:valueTo="0.9" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$weather_ic_sandstorm_whitebg__7" android:duration="565" android:startOffset="769" android:valueFrom="-0.1" android:valueTo="0.9" android:valueType="floatType" android:propertyName="scaleY" />
+</set>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/search_location" android:id="@id/menu_current_city" android:title="@string/find_current_location" app:iconTint="@color/col_def_action_button_tint_color" app:showAsAction="always" />
+</menu>

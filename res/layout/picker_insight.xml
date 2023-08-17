@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/widget_background_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/widget_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_bg_preview_aesthetic" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="215.0">
+            <ImageView android:background="#0dffffff" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitXY" android:layout_weight="75.0" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/widget_background_dim" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <RelativeLayout android:id="@id/widget_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0">
+            <include android:id="@id/widget_insight_weather" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="35.0" layout="@layout/widget_insight_weather_layout" />
+            <LinearLayout android:orientation="vertical" android:id="@id/widget_insight_area" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="100.0" android:layout_weight="65.0">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="6.43" />
+                <include android:id="@id/widget_insight_summary" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="11.43" android:layout_marginHorizontal="@dimen/insight_widget_horizontal_padding" layout="@layout/widget_insight_summary_layout" />
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.86" />
+                <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="62.85" android:layout_marginHorizontal="@dimen/insight_widget_horizontal_padding">
+                    <include android:id="@id/widget_insight_container" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/widget_insight_value" />
+                </LinearLayout>
+                <LinearLayout android:gravity="end" android:id="@id/widget_insight_update_area" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="16.0dip" android:layout_weight="11.43" android:layout_marginHorizontal="@dimen/insight_widget_horizontal_padding">
+                    <include android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentEnd="true" layout="@layout/widget_insight_update_area_layout" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/widget_refresh_icon_touch_area" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" android:layout_marginHorizontal="10.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

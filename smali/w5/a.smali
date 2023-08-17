@@ -1,0 +1,56 @@
+.class public abstract Lw5/a;
+.super Lq5/b;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    const-string v0, "com.google.android.gms.maps.internal.IOnInfoWindowClickListener"
+
+    const/4 v1, 0x3
+
+    invoke-direct {p0, v0, v1}, Lq5/b;-><init>(Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final k(ILandroid/os/Parcel;Landroid/os/Parcel;)Z
+    .locals 1
+
+    const/4 v0, 0x1
+
+    if-ne p1, v0, :cond_0
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lt5/j;->l(Landroid/os/IBinder;)Lt5/a;
+
+    move-result-object p1
+
+    invoke-static {p2}, Lt5/e;->b(Landroid/os/Parcel;)V
+
+    check-cast p0, Lv5/n;
+
+    new-instance p2, Lx5/b;
+
+    invoke-direct {p2, p1}, Lx5/b;-><init>(Lt5/a;)V
+
+    iget-object p0, p0, Lv5/n;->b:Lv5/a;
+
+    invoke-interface {p0, p2}, Lv5/a;->e(Lx5/b;)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    return v0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    return p0
+.end method

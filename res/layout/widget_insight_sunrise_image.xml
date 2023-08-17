@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/insight_image" android:layout_width="wrap_content" android:layout_height="@dimen/insight_widget_value_image_height" android:maxWidth="@dimen/insight_widget_value_image_width" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|top" android:id="@id/insight_image_progress" android:layout_width="fill_parent" android:layout_height="@dimen/insight_widget_value_image_width" android:src="@drawable/ic_sunrise_route" android:adjustViewBounds="true" android:maxWidth="@dimen/insight_widget_value_image_width" />
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/widget_insight_sunrise_baseline" android:background="#80fafafa" android:layout_width="@dimen/insight_widget_value_image_width" android:layout_height="1.0dip" android:layout_below="@id/insight_image" android:layout_centerHorizontal="true" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@android:anim/linear_interpolator" android:duration="1" android:startOffset="115" android:valueFrom="?colorControlNormal" android:valueTo="?colorPrimary" android:propertyName="strokeColor" />
+        <objectAnimator android:duration="183" android:valueFrom="?colorPrimary" android:valueTo="?colorPrimary" android:propertyName="strokeColor" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@android:anim/linear_interpolator" android:duration="116" android:valueFrom="6" android:valueTo="8" android:propertyName="strokeWidth" />
+    </set>
+</set>

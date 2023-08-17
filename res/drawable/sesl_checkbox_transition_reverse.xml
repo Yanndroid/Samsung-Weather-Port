@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/sesl_checkbox"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="s3" android:animation="@anim/sesl_check_outcircle_scaley_0_reverse" />
+    <target android:name="s3pg1p10" android:animation="@anim/sesl_check_outcircle_ellipsepath1custom1_stroke1_s3pg1p2_reverse" />
+    <target android:name="s3s2" android:animation="@anim/sesl_check_incircle_0parentlink_scaley_4_reverse" />
+    <target android:name="s2p300" android:animation="@anim/sesl_check_incircle_0parentlink_mergepaths1custom8_check_incircle_0_bg_s2p4_reverse" />
+    <target android:name="s2p300" android:animation="@anim/sesl_check_incircle_0parentlink_check_incircle_0_path_9_reverse" />
+    <target android:name="s3s1" android:animation="@anim/sesl_check_incircle_1parentlink_scaley_11_reverse" />
+    <target android:name="s1p300" android:animation="@anim/sesl_check_incircle_1parentlink_mergepaths1custom15_check_incircle_1_bg_s1p4_reverse" />
+    <target android:name="s1p300" android:animation="@anim/sesl_check_incircle_1parentlink_check_incircle_1_path_16_reverse" />
+</animated-vector>

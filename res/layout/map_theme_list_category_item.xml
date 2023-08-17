@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/map_theme_list_category_item_0" android:background="@drawable/map_theme_category_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="32.0dip" android:paddingStart="14.0dip" android:paddingEnd="16.0dip" android:elevation="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" app:tint="@color/map_theme_category_text_color" />
+    <com.samsung.android.weather.app.common.view.SizeLimitedTextView android:textSize="14.0sp" android:textColor="@color/map_theme_category_text_color" android:layout_gravity="center_vertical" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="1.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:textSizeLimit="large" />
+</LinearLayout>

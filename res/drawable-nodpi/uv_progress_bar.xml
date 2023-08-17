@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <layer-list>
+            <item>
+                <shape android:shape="ring" android:innerRadiusRatio="3.0" android:thicknessRatio="10.0" android:useLevel="false">
+                    <solid android:color="#3fffffff" />
+                </shape>
+            </item>
+            <item>
+                <inset android:insetTop="-46.0dip">
+                    <shape android:shape="ring" android:useLevel="false" android:innerRadius="0.0dip" android:thickness="3.0dip">
+                        <solid android:color="#ff8afb33" />
+                    </shape>
+                </inset>
+            </item>
+        </layer-list>
+    </item>
+    <item android:id="@android:id/progress">
+        <inset android:insetTop="46.0dip">
+            <layer-list>
+                <item>
+                    <rotate android:fromDegrees="270.0" android:toDegrees="270.0">
+                        <shape android:shape="ring" android:innerRadiusRatio="3.0" android:thicknessRatio="10.0" android:useLevel="true">
+                            <gradient android:startColor="#ff8afb33" android:endColor="#ff992e78" android:useLevel="false" android:angle="0.0" android:type="sweep" android:centerY="0.5" android:centerColor="#ffef785f" />
+                        </shape>
+                    </rotate>
+                </item>
+                <item>
+                    <rotate>
+                        <inset android:insetTop="-46.0dip">
+                            <shape android:shape="ring" android:useLevel="false" android:innerRadius="0.0dip" android:thickness="6.0dip">
+                                <stroke android:width="2.0dip" android:color="#ffffffff" />
+                            </shape>
+                        </inset>
+                    </rotate>
+                </item>
+            </layer-list>
+        </inset>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <inset android:insetTop="46.0dip">
+            <rotate>
+                <inset android:insetTop="-46.0dip">
+                    <shape android:shape="ring" android:useLevel="false" android:innerRadius="0.0dip" android:thickness="5.0dip">
+                        <solid android:color="#ffffffff" />
+                    </shape>
+                </inset>
+            </rotate>
+        </inset>
+    </item>
+</layer-list>

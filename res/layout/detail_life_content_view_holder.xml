@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.daemonapp.app.detail.view.DetailCardConstraintLayout android:tag="layout/detail_life_content_view_holder_0" android:paddingTop="@dimen/detail_life_contents_top_margin" android:paddingBottom="@dimen/detail_life_contents_bottom_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/title_layout" android:tag="binding_1" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/detail_life_contents_content_margin_side" android:layout_marginEnd="@dimen/detail_life_contents_title_end">
+        <com.samsung.android.weather.app.common.view.SizeLimitedTextView android:textSize="@dimen/particulars_common_title_text_size" android:textColor="@color/col_70_FAFAFA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/life_contents" android:fontFamily="@string/font_sec" android:textFontWeight="600" app:textSizeLimit="large" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <ImageView android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/next_forward" android:scaleType="fitCenter" android:adjustViewBounds="true" android:tint="@color/col_70_FAFAFA" />
+    </LinearLayout>
+    <include android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/detail_contents_content_margin_top" android:layout_marginHorizontal="@dimen/detail_contents_content_margin_side" app:layout_constraintTop_toBottomOf="@id/title_layout" layout="@layout/detail_content_common_view" />
+</com.sec.android.daemonapp.app.detail.view.DetailCardConstraintLayout>

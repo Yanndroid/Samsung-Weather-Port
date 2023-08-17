@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/widget_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:paddingHorizontal="11.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/widget_icon_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/widget_text_area" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/widget_current_weather_icon" android:layout_width="55.0dip" android:layout_height="55.0dip" android:src="@drawable/ic_partly_sunny" />
+            <FrameLayout android:id="@id/widget_current_weather_icon_animation" android:visibility="gone" android:layout_width="55.0dip" android:layout_height="55.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="start|center" android:orientation="vertical" android:id="@id/widget_text_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="55.0dip" android:layout_toLeftOf="@id/widget_icon_area" android:layout_centerInParent="true">
+            <TextView android:textSize="37.0dip" android:ellipsize="end" android:id="@id/widget_current_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="23°" android:maxLines="1" android:includeFontPadding="false" style="@style/CoverFaceWidget.TextAppearance.Temperature" />
+            <TextView android:textSize="13.0dip" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/widget_current_city_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_location" android:maxLines="1" style="@style/CoverFaceWidget.TextAppearance" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

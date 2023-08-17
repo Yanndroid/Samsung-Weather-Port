@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/insight_widget_time_icon" android:layout_height="@dimen/insight_widget_time_icon" android:src="@drawable/insight_title" />
+        <TextView android:ellipsize="end" android:gravity="start|center" android:id="@id/widget_insight_day" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/today" android:maxLines="1" android:alpha="0.5" android:layout_marginStart="3.0dip" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="@dimen/insight_widget_time_text_min" android:autoSizeMaxTextSize="@dimen/insight_widget_time_text" style="@style/InsightWidget.TextAppearance.Content.Date" />
+    </LinearLayout>
+</LinearLayout>

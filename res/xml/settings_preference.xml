@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <DropDownPreference android:persistent="false" android:entries="@array/temp_unit_entries" android:title="@string/menu_settings_unit" android:key="UNIT" android:summary=" " android:defaultValue="0" android:entryValues="@array/temp_unit_entry_values" />
+    <Preference android:persistent="false" android:key="USE_CURRENT_LOCATION" android:summary=" " />
+    <DropDownPreference android:persistent="false" android:entries="@array/auto_refresh_period_entries" android:title="@string/menu_settings_update" android:key="AUTO_REFRESH" android:summary=" " android:defaultValue="0" android:entryValues="@array/auto_refresh_period_entry_values" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="true" android:title="@string/menu_settings_update" android:key="AUTO_REFRESH_ON_SCREEN" />
+    <SeslSwitchPreferenceScreen android:persistent="true" android:title="@string/auto_refresh_on_the_go" android:key="AUTO_REFRESH_ON_THE_GO" />
+    <androidx.preference.PreferenceCategory android:key="ADDITION">
+        <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:key="APP_ICON" />
+        <Preference android:persistent="false" android:title="@string/notifications" android:key="NOTIFICATION" />
+        <Preference android:persistent="false" android:title="@string/customization_service" android:key="CUSTOMIZATION_SERVICE" android:summary=" " />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:key="PRIVACY">
+        <Preference android:persistent="false" android:title="@string/privacy_policy" android:key="PRIVACY_POLICY" />
+        <Preference android:persistent="false" android:title="@string/weather_n_permissions" android:key="PERMISSIONS" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:key="GENERAL">
+        <com.samsung.android.weather.app.common.view.CustomPreference android:persistent="false" android:title="@string/about_weather" android:key="ABOUT_WEATHER" />
+        <Preference android:persistent="false" android:title="@string/more_cuntact_us" android:key="CONTACT_US" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="" />
+</androidx.preference.PreferenceScreen>

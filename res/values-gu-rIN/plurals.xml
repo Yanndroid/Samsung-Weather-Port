@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="cant_add_more_than_location">
+        <item quantity="other">%d કરતાં વધારે લોકેશનો ઉમેરી શકાય નહીં. આ લોકેશન ઉમેરવા માટે અમુક લોકેશનો કાઢી નાખો.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d કરતાં વધારે લોકેશન ઉમેરી શકાય નહીં. આ લોકેશન ઉમેરવા માટે અમુક લોકેશનો કાઢી નાખો.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="locations_items_deleted">
+        <item quantity="other">%d વસ્તુઓ હટાવવામાં આવી</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d વસ્તુ હટાવવામાં આવી</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="search_up_to_characters_allowed">
+        <item quantity="other">%d કરતાં વધારે અક્ષરો દાખલ કરી શકાતા નથી.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d કરતાં વધારે અક્ષરો દાખલ કરી શકાતા નથી.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="selected_count_msg">
+        <item quantity="other">%d પસંદ કરેલ છે</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d પસંદ કરેલ છે</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="selected_days_msg">
+        <item quantity="other">%d દિવસ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d દિવસ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="selected_hours_msg">
+        <item quantity="other">%d કલાક</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d કલાક</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

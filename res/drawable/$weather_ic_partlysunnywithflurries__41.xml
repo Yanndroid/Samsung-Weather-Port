@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$weather_ic_partlysunnywithflurries__42" android:duration="2350" android:startOffset="0" android:valueFrom="45" android:valueTo="45" android:valueType="floatType" android:propertyName="rotation" />
+    <objectAnimator android:interpolator="@drawable/$weather_ic_partlysunnywithflurries__43" android:duration="1347" android:startOffset="2350" android:valueFrom="45" android:valueTo="0" android:valueType="floatType" android:propertyName="rotation" />
+</set>

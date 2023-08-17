@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="280.0dip" android:width="280.0dip" android:viewportWidth="280.0" android:viewportHeight="280.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="_R_G">
+        <group android:name="_R_G_L_2_G_N_2_T_1" android:scaleX="1.0" android:scaleY="1.0" android:translateX="134.871" android:translateY="156.125">
+            <group android:name="_R_G_L_2_G_N_2_T_0" android:translateX="52.0" android:translateY="-52.0">
+                <group android:name="_R_G_L_2_G" android:scaleX="0.7843" android:scaleY="0.7843" android:translateX="-2.301" android:translateY="-2.628">
+                    <path android:name="_R_G_L_2_G_D_0_P_0" android:fillColor="#ffffcf50" android:pathData=" M72 0 C72,39.76 39.76,72 0,72 C-39.76,72 -72,39.76 -72,0 C-72,-39.76 -39.76,-72 0,-72 C39.76,-72 72,-39.76 72,0 " android:fillAlpha="1.0" android:fillType="nonZero" />
+                </group>
+            </group>
+        </group>
+        <group android:name="_R_G_L_1_G_T_1" android:scaleX="1.0" android:scaleY="1.0" android:translateX="134.871" android:translateY="156.125">
+            <group android:name="_R_G_L_1_G" android:translateX="52.0" android:translateY="-52.0">
+                <path android:name="_R_G_L_1_G_D_0_P_0" android:fillColor="#ffffcf50" android:pathData=" M46.46 -2 C46.46,24.76 24.76,46.46 -2,46.46 C-28.76,46.46 -50.46,24.76 -50.46,-2 C-50.46,-28.76 -28.76,-50.46 -2,-50.46 C24.76,-50.46 46.46,-28.76 46.46,-2 " android:fillAlpha="1.0" android:fillType="nonZero" />
+            </group>
+        </group>
+        <group android:name="_R_G_L_0_G">
+            <group android:name="_R_G_L_0_G_L_1_G" android:pivotX="-80.0" android:pivotY="47.5" android:scaleX="1.0" android:scaleY="1.0" android:translateX="180.0" android:translateY="180.125">
+                <path android:name="_R_G_L_0_G_L_1_G_D_0_P_0" android:fillColor="#ffb2deff" android:pathData=" M32 -48 C32,-48 -80,-48 -80,-48 C-80,-48 -80,48 -80,48 C-80,48 32,48 32,48 C58.52,48 80,26.52 80,0 C80,-26.52 58.52,-48 32,-48 " android:fillAlpha="1.0" android:fillType="nonZero" />
+            </group>
+            <group android:name="_R_G_L_0_G_L_0_G" android:pivotY="80.5" android:scaleX="1.0" android:scaleY="1.0" android:translateX="100.0" android:translateY="147.625">
+                <path android:name="_R_G_L_0_G_L_0_G_D_0_P_0" android:fillColor="#ffbee3ff" android:pathData=" M80 0 C80,44.2 44.2,80 0,80 C-44.2,80 -80,44.2 -80,0 C-80,-44.2 -44.2,-80 0,-80 C44.2,-80 80,-44.2 80,0 " android:fillAlpha="1.0" android:fillType="nonZero" />
+            </group>
+        </group>
+    </group>
+    <group android:name="time_group" />
+</vector>

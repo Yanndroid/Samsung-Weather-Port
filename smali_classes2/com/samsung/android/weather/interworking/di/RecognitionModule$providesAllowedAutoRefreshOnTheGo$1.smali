@@ -1,0 +1,67 @@
+.class public final Lcom/samsung/android/weather/interworking/di/RecognitionModule$providesAllowedAutoRefreshOnTheGo$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/samsung/android/weather/app/common/usecase/AllowedAutoRefreshOnTheGo;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/samsung/android/weather/interworking/di/RecognitionModule;->providesAllowedAutoRefreshOnTheGo(Landroid/app/Application;Lcom/samsung/android/weather/domain/entity/device/DeviceProfile;Lcom/samsung/android/weather/domain/repo/SettingsRepo;Lcom/samsung/android/weather/domain/usecase/GetAutoRefreshType;Lcom/samsung/android/weather/domain/PolicyManager;)Lcom/samsung/android/weather/app/common/usecase/AllowedAutoRefreshOnTheGo;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0011\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0003*\u0001\u0000\u0008\n\u0018\u00002\u00020\u0001J\u0013\u0010\u0003\u001a\u00020\u0002H\u0096B\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0003\u0010\u0004\u0082\u0002\u0004\n\u0002\u0008\u0019\u00a8\u0006\u0005"
+    }
+    d2 = {
+        "com/samsung/android/weather/interworking/di/RecognitionModule$providesAllowedAutoRefreshOnTheGo$1",
+        "Lcom/samsung/android/weather/app/common/usecase/AllowedAutoRefreshOnTheGo;",
+        "",
+        "invoke",
+        "(Lna/d;)Ljava/lang/Object;",
+        "weather-interworking-1.6.70.18_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public invoke(Lna/d;)Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lna/d<",
+            "-",
+            "Ljava/lang/Boolean;",
+            ">;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    sget-object p0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+
+    return-object p0
+.end method

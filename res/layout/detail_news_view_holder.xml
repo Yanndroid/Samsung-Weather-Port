@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.daemonapp.app.detail.view.DetailCardConstraintLayout android:tag="layout/detail_news_view_holder_0" android:paddingTop="@dimen/video_layout_paddingTop" android:paddingBottom="@dimen/video_layout_paddingBottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/news_title_layout" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/video_title_margin_start" android:layout_marginEnd="@dimen/video_title_margin_end" app:title="@string/news_title">
+        <com.samsung.android.weather.app.common.view.SizeLimitedTextView android:textSize="@dimen/particulars_common_title_text_size" android:textColor="@color/col_70_FAFAFA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/news_title" android:fontFamily="@string/font_sec" android:textFontWeight="600" app:textSizeLimit="large" />
+    </LinearLayout>
+    <include android:id="@id/news_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/detail_contents_content_margin_top" android:layout_marginHorizontal="@dimen/detail_contents_content_margin_side" app:layout_constraintTop_toBottomOf="@id/news_title_layout" layout="@layout/detail_news_view" />
+</com.sec.android.daemonapp.app.detail.view.DetailCardConstraintLayout>

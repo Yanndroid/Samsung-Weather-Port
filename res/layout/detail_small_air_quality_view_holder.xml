@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.daemonapp.app.detail.view.DetailCardConstraintLayout android:tag="layout/detail_small_air_quality_view_holder_0" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/small_card_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/detail_small_air_quality_inner_view" />
+</com.sec.android.daemonapp.app.detail.view.DetailCardConstraintLayout>
