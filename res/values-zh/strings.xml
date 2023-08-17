@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cover_widget_preview_city_name">城市名称</string>
+    <string name="cover_widget_preview_feels_like">24°/19° 体感温度 21°</string>
+    <string name="cover_widget_preview_time_1">上午1时</string>
+    <string name="cover_widget_preview_time_2">上午2时</string>
+    <string name="cover_widget_preview_time_3">上午3时</string>
+    <string name="cover_widget_preview_time_4">上午4时</string>
+    <string name="cover_widget_preview_time_5">上午5时</string>
+    <string name="cover_widget_preview_time_6">上午6时</string>
+    <string name="cover_widget_preview_time_7">上午7时</string>
+    <string name="cover_widget_preview_time_8">上午8时</string>
+    <string name="cover_widget_preview_weather_text">时晴</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/cover_widget_item_layout" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="end" android:layout_width="76.0dip" android:layout_height="76.0dip" android:layout_marginTop="52.0dip" android:layout_marginEnd="24.0dip">
+        <ImageView android:id="@id/widget_current_weather_icon" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/widget_current_weather_icon_animation" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/weather_hourly_vertical_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="start|center" android:layout_gravity="start" android:id="@id/widget_current_city_name" android:layout_width="195.0dip" android:layout_height="33.0dip" android:layout_marginTop="29.0dip" android:layout_marginStart="32.0dip" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="16.0dip" android:autoSizeMaxTextSize="19.0dip" style="@style/CoverWidget.TextAppearance.CityName" />
+        <TextView android:gravity="start|center" android:layout_gravity="start" android:id="@id/widget_current_temp" android:layout_width="195.0dip" android:layout_height="66.0dip" android:layout_marginStart="30.0dip" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="60.0dip" android:autoSizeMaxTextSize="66.0dip" style="@style/CoverWidget.TextAppearance.Temperature" />
+        <TextView android:ellipsize="end" android:gravity="start|center" android:layout_gravity="start" android:id="@id/cover_additional_temp_info_text" android:layout_width="195.0dip" android:layout_height="20.0dip" android:maxLines="1" android:layout_marginStart="32.0dip" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="11.0dip" android:autoSizeMaxTextSize="13.0dip" style="@style/CoverWidget.TextAppearance" />
+        <TextView android:ellipsize="end" android:gravity="start|center" android:layout_gravity="start" android:id="@id/widget_current_weather_text" android:layout_width="195.0dip" android:layout_height="20.0dip" android:layout_marginStart="32.0dip" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="11.0dip" android:autoSizeMaxTextSize="13.0dip" style="@style/CoverWidget.TextAppearance.CityName" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0dip" android:gravity="center" android:id="@id/cover_widget_description" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="error message" android:textAlignment="center" android:layout_marginHorizontal="10.0dip" style="@style/CoverFaceWidget.TextAppearance" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="Enable" android:key="EnableDevOpts" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_forecast_provider_names" android:title="Forecast Provider" android:key="CSC_Provider" android:entryValues="@array/devopts_forecast_provider_values" />
+    <DropDownPreference android:persistent="false" android:entries="@array/devopts_weather_codes_names" android:title="Weather Code" android:key="WI_WeatherCode" android:entryValues="@array/devopts_weather_codes_values" />
+</androidx.preference.PreferenceScreen>

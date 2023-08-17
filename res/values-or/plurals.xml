@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="cant_add_more_than_location">
+        <item quantity="other">%dଟି ଲୋକେସନରୁ ଅଧିକ ଯୋଡି ପାରିବେ ନାହିଁ। ଏହା ଯୋଡିବାକୁ କିଛି ଲୋକେସନ୍ ଡିଲିଟ୍ କରନ୍ତୁ।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ଲୋକେସନରୁ ଅଧିକ ଯୋଡି ପାରିବେ ନାହିଁ। ଏହା ଯୋଡିବାକୁ କିଛି ଲୋକେସନ୍ ଡିଲିଟ୍ କରନ୍ତୁ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="locations_items_deleted">
+        <item quantity="other">%dଟି ଆଇଟମ୍ ଡିଲିଟ୍ ହୋଇଛି</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ଆଇଟମ୍ ଡିଲିଟ୍ ହୋଇଛି</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="search_up_to_characters_allowed">
+        <item quantity="other">%dଟି ରୁ ଅଧିକ ବର୍ଣ୍ଣ ପ୍ରବେଶ କରିପାରିବେ ନାହିଁ।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ରୁ ଅଧିକ ବର୍ଣ୍ଣ ପ୍ରବେଶ କରିପାରିବେ ନାହିଁ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="selected_count_msg">
+        <item quantity="other">%dଟି ଚୟନିତ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ଚୟନିତ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="selected_days_msg">
+        <item quantity="other">%d ଦିନ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ଦିନ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="selected_hours_msg">
+        <item quantity="other">%d ଘଣ୍ଟା</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ଘଣ୍ଟା</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

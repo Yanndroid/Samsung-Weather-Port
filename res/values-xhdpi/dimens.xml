@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sesl_list_divider_height">1.0px</dimen>
+    <dimen name="widget_cover_hourly_icon_marginBottom">10.0dip</dimen>
+    <dimen name="widget_cover_hourly_icon_marginTop">5.0dip</dimen>
+    <dimen name="widget_cover_hourly_icon_size">24.0dip</dimen>
+    <dimen name="widget_cover_hourly_margin">7.0dip</dimen>
+    <dimen name="widget_cover_hourly_temp_text_size">16.0dip</dimen>
+    <dimen name="widget_cover_hourly_time_text">10.5dip</dimen>
+    <dimen name="widget_cover_layout_margin_width">26.0dip</dimen>
+    <dimen name="widget_cover_layout_padding">40.0dip</dimen>
+    <dimen name="widget_cover_minHeight">650.0dip</dimen>
+    <dimen name="widget_cover_minWidth">748.0dip</dimen>
+    <dimen name="widget_cover_text_size">17.0dip</dimen>
+    <dimen name="widget_cover_title_icon_size">70.0dip</dimen>
+    <dimen name="widget_cover_daily_height">34.0dip</dimen>
+    <dimen name="widget_cover_daily_icon_size">24.0dip</dimen>
+    <dimen name="widget_cover_daily_pop_icon_size">11.0dip</dimen>
+    <dimen name="widget_cover_daily_pop_min_width">21.0dip</dimen>
+    <dimen name="widget_cover_daily_pop_text_size">11.0dip</dimen>
+    <dimen name="widget_cover_daily_temp_min_width">32.0dip</dimen>
+    <dimen name="widget_cover_daily_text_size">15.0dip</dimen>
+    <dimen name="widget_cover_index_height">136.0dip</dimen>
+    <dimen name="widget_cover_index_title_text_size">15.0dip</dimen>
+    <dimen name="widget_cover_index_value_text_size">14.0dip</dimen>
+</resources>

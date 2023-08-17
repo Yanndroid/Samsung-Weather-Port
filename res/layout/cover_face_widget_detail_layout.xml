@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_content" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="146.0" android:layout_centerInParent="true">
+        <TextView android:ellipsize="end" android:id="@id/widget_current_temp" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="23°" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="44.0" android:lineSpacingExtra="0.0dip" android:autoSizeTextType="uniform" style="@style/CoverFaceWidget.TextAppearance.Temperature" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="25.0">
+            <TextView android:textSize="16.0dip" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/widget_face_current_weather_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/partly_sunny" android:maxLines="1" style="@style/CoverFaceWidget.TextAppearance" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="18.0">
+            <TextView android:textSize="12.0dip" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/widget_current_city_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/widget_location" android:maxLines="1" style="@style/CoverFaceWidget.TextAppearance" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="end|bottom|center" android:orientation="horizontal" android:id="@id/widget_icon_area" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="58.0" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/widget_current_weather_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_partly_sunny" android:scaleType="fitEnd" android:adjustViewBounds="true" android:layout_alignParentEnd="true" />
+            <ImageView android:id="@id/icon_guide_layout" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_partly_sunny" android:scaleType="fitEnd" android:adjustViewBounds="true" android:layout_alignParentEnd="true" />
+            <FrameLayout android:gravity="end" android:id="@id/widget_current_weather_icon_animation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/icon_guide_layout" android:layout_alignBottom="@id/icon_guide_layout" android:layout_alignStart="@id/icon_guide_layout" android:layout_alignEnd="@id/icon_guide_layout" />
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/touch_block_area" android:background="#00000000" android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:soundEffectsEnabled="false" android:hapticFeedbackEnabled="false" android:importantForAccessibility="no" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/widget_restore_layout" android:background="@drawable/widget_bg_gradient_sunny" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/widget_cover_layout_margin_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/cover_widget_hourly_vertical_restore" android:background="@drawable/cover_widget_ripple" android:padding="@dimen/widget_cover_layout_margin_width" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="101.0dip" android:hapticFeedbackEnabled="false">
+        <ImageView android:layout_width="@dimen/widget_cover_title_icon_size" android:layout_height="@dimen/widget_cover_title_icon_size" android:src="@drawable/ic_oobe" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/restore_weather_data" android:maxLines="3" style="@style/CoverWidget.TextAppearance.CityName" />
+    </LinearLayout>
+</FrameLayout>

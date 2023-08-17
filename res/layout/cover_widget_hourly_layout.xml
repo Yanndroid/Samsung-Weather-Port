@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/cover_widget_item_layout" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/times_forecast" android:paddingHorizontal="10.0dip" android:paddingVertical="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/weather_hourly_area" android:background="@drawable/widget_card_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" android:paddingVertical="14.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/hourly_area_0" android:focusable="true" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@id/hourly_time_0" android:layout_width="fill_parent" android:layout_height="16.0dip" style="@style/CoverWidget.TextAppearance.Hourly" />
+                <ImageView android:id="@id/hourly_weather_0" android:layout_width="@dimen/widget_cover_hourly_icon_size" android:layout_height="@dimen/widget_cover_hourly_icon_size" android:layout_marginTop="@dimen/widget_cover_hourly_icon_marginTop" android:layout_marginBottom="@dimen/widget_cover_hourly_icon_marginBottom" />
+                <TextView android:id="@id/hourly_temp_0" android:layout_width="fill_parent" android:layout_height="25.0dip" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="12.0dip" android:autoSizeMaxTextSize="16.0dip" style="@style/CoverWidget.TextAppearance.Hourly" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/hourly_area_1" android:focusable="true" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@id/hourly_time_1" android:layout_width="fill_parent" android:layout_height="16.0dip" style="@style/CoverWidget.TextAppearance.Hourly" />
+                <ImageView android:id="@id/hourly_weather_1" android:layout_width="@dimen/widget_cover_hourly_icon_size" android:layout_height="@dimen/widget_cover_hourly_icon_size" android:layout_marginTop="@dimen/widget_cover_hourly_icon_marginTop" android:layout_marginBottom="@dimen/widget_cover_hourly_icon_marginBottom" />
+                <TextView android:id="@id/hourly_temp_1" android:layout_width="fill_parent" android:layout_height="25.0dip" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="12.0dip" android:autoSizeMaxTextSize="16.0dip" style="@style/CoverWidget.TextAppearance.Hourly" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/hourly_area_2" android:focusable="true" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@id/hourly_time_2" android:layout_width="fill_parent" android:layout_height="16.0dip" style="@style/CoverWidget.TextAppearance.Hourly" />
+                <ImageView android:id="@id/hourly_weather_2" android:layout_width="@dimen/widget_cover_hourly_icon_size" android:layout_height="@dimen/widget_cover_hourly_icon_size" android:layout_marginTop="@dimen/widget_cover_hourly_icon_marginTop" android:layout_marginBottom="@dimen/widget_cover_hourly_icon_marginBottom" />
+                <TextView android:id="@id/hourly_temp_2" android:layout_width="fill_parent" android:layout_height="25.0dip" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="12.0dip" android:autoSizeMaxTextSize="16.0dip" style="@style/CoverWidget.TextAppearance.Hourly" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/hourly_area_3" android:focusable="true" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@id/hourly_time_3" android:layout_width="fill_parent" android:layout_height="16.0dip" style="@style/CoverWidget.TextAppearance.Hourly" />
+                <ImageView android:id="@id/hourly_weather_3" android:layout_width="@dimen/widget_cover_hourly_icon_size" android:layout_height="@dimen/widget_cover_hourly_icon_size" android:layout_marginTop="@dimen/widget_cover_hourly_icon_marginTop" android:layout_marginBottom="@dimen/widget_cover_hourly_icon_marginBottom" />
+                <TextView android:id="@id/hourly_temp_3" android:layout_width="fill_parent" android:layout_height="25.0dip" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="12.0dip" android:autoSizeMaxTextSize="16.0dip" style="@style/CoverWidget.TextAppearance.Hourly" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/hourly_area_4" android:focusable="true" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@id/hourly_time_4" android:layout_width="fill_parent" android:layout_height="16.0dip" style="@style/CoverWidget.TextAppearance.Hourly" />
+                <ImageView android:id="@id/hourly_weather_4" android:layout_width="@dimen/widget_cover_hourly_icon_size" android:layout_height="@dimen/widget_cover_hourly_icon_size" android:layout_marginTop="@dimen/widget_cover_hourly_icon_marginTop" android:layout_marginBottom="@dimen/widget_cover_hourly_icon_marginBottom" />
+                <TextView android:id="@id/hourly_temp_4" android:layout_width="fill_parent" android:layout_height="25.0dip" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="12.0dip" android:autoSizeMaxTextSize="16.0dip" style="@style/CoverWidget.TextAppearance.Hourly" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/hourly_area_5" android:focusable="true" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@id/hourly_time_5" android:layout_width="fill_parent" android:layout_height="16.0dip" style="@style/CoverWidget.TextAppearance.Hourly" />
+                <ImageView android:id="@id/hourly_weather_5" android:layout_width="@dimen/widget_cover_hourly_icon_size" android:layout_height="@dimen/widget_cover_hourly_icon_size" android:layout_marginTop="@dimen/widget_cover_hourly_icon_marginTop" android:layout_marginBottom="@dimen/widget_cover_hourly_icon_marginBottom" />
+                <TextView android:id="@id/hourly_temp_5" android:layout_width="fill_parent" android:layout_height="25.0dip" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="12.0dip" android:autoSizeMaxTextSize="16.0dip" style="@style/CoverWidget.TextAppearance.Hourly" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

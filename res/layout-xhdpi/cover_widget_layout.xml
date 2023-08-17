@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/widget_main_layout" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_background" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <ListView android:id="@id/cover_weather_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@null" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/widget_refresh_progress" android:padding="6.0dip" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="120.0dip">
+        <ProgressBar android:theme="@style/WeatherWidget.Progress.Theme.CoverWidget" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/WeatherWidget.Progress" />
+    </FrameLayout>
+</FrameLayout>

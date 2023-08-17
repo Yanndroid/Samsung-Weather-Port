@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/cover_widget_item_layout" android:paddingBottom="55.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/lifeIndex_forecast"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="10.0dip" android:paddingVertical="6.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/index_row_0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/index_column_0" android:background="@drawable/widget_card_bg" android:focusable="true" android:layout_width="0.0dip" android:layout_height="@dimen/widget_cover_index_height" android:layout_weight="1.0" android:layout_marginEnd="10.0dip">
+                <ImageView android:id="@id/index_column_image_0" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginBottom="8.0dip" />
+                <TextView android:id="@id/index_column_title_0" android:layout_width="wrap_content" android:layout_height="20.0dip" style="@style/CoverWidget.TextAppearance.Index" />
+                <TextView android:textSize="@dimen/widget_cover_index_value_text_size" android:id="@id/index_column_value_0" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="1.0dip" style="@style/CoverWidget.TextAppearance.Index" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/index_column_1" android:background="@drawable/widget_card_bg" android:focusable="true" android:layout_width="0.0dip" android:layout_height="@dimen/widget_cover_index_height" android:layout_weight="1.0">
+                <ImageView android:id="@id/index_column_image_1" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginBottom="9.0dip" />
+                <TextView android:id="@id/index_column_title_1" android:layout_width="wrap_content" android:layout_height="20.0dip" style="@style/CoverWidget.TextAppearance.Index" />
+                <TextView android:textSize="@dimen/widget_cover_index_value_text_size" android:id="@id/index_column_value_1" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="1.0dip" style="@style/CoverWidget.TextAppearance.Index" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/index_row_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/index_column_2" android:background="@drawable/widget_card_bg" android:focusable="true" android:layout_width="0.0dip" android:layout_height="@dimen/widget_cover_index_height" android:layout_weight="1.0" android:layout_marginEnd="10.0dip">
+                <ImageView android:id="@id/index_column_image_2" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginBottom="9.0dip" />
+                <TextView android:id="@id/index_column_title_2" android:layout_width="wrap_content" android:layout_height="20.0dip" style="@style/CoverWidget.TextAppearance.Index" />
+                <TextView android:textSize="@dimen/widget_cover_index_value_text_size" android:id="@id/index_column_value_2" android:layout_width="wrap_content" android:layout_height="20.0dip" style="@style/CoverWidget.TextAppearance.Index" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/index_column_3" android:background="@drawable/widget_card_bg" android:focusable="true" android:layout_width="0.0dip" android:layout_height="@dimen/widget_cover_index_height" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/index_column_3_1" android:layout_width="0.0dip" android:layout_height="120.0dip" android:layout_weight="1.0" android:paddingHorizontal="2.0dip">
+                    <ImageView android:id="@id/index_column_image_3" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="5.0dip" />
+                    <TextView android:id="@id/index_column_title_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="20.0dip" android:maxLines="2" style="@style/CoverWidget.TextAppearance.Index" />
+                    <TextView android:textSize="@dimen/widget_cover_index_value_text_size" android:id="@id/index_column_value_3" android:layout_width="wrap_content" android:layout_height="20.0dip" style="@style/CoverWidget.TextAppearance.Index" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/index_column_3_2" android:layout_width="0.0dip" android:layout_height="120.0dip" android:layout_weight="1.0" android:paddingHorizontal="2.0dip">
+                    <ImageView android:id="@id/index_column_image_4" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="5.0dip" />
+                    <TextView android:id="@id/index_column_title_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="20.0dip" android:maxLines="2" style="@style/CoverWidget.TextAppearance.Index" />
+                    <TextView android:textSize="@dimen/widget_cover_index_value_text_size" android:id="@id/index_column_value_4" android:layout_width="wrap_content" android:layout_height="20.0dip" style="@style/CoverWidget.TextAppearance.Index" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
